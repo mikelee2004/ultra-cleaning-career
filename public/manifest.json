@@ -1,0 +1,39 @@
+{
+  "name": "Работа клинером в Краснодаре - Ультра Клининг",
+  "short_name": "Работа в УК",
+  "description": "Вакансии клинеров в Краснодаре. Стабильная работа, достойная зарплата, гибкий график. Присоединяйтесь к команде Ультра Клининг!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#A70000",
+  "orientation": "portrait",
+  "lang": "ru",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "employment"],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "label": "Главная страница вакансий"
+    }
+  ]
+}

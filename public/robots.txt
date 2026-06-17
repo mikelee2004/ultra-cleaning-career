@@ -1,0 +1,31 @@
+# robots.txt для rabota.cleankrd23.ru
+
+User-agent: *
+Allow: /
+
+# Основная карта сайта
+Sitemap: https://rabota.cleankrd23.ru/sitemap.xml
+
+# Блокируем служебные файлы
+Disallow: /api/
+Disallow: /_next/
+Disallow: /scripts/
+
+# Разрешаем статические ресурсы
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+Allow: /*.webp
+
+# Ускоряем индексацию для основных ботов
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
