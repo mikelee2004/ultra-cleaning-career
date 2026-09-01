@@ -99,6 +99,9 @@ export default function Footer() {
             <span className="text-xs text-white/25">ИП Молчанов Никита Олегович · ИНН 236103451956 · ОГРНИП 325237500215030</span>
           </div>
           <div className="flex gap-6">
+            <a href={`${BASE}/offer`} className="text-white/40 no-underline hover:text-white transition-colors">
+              Публичная оферта
+            </a>
             <a href={`${BASE}/privacy`} className="text-white/40 no-underline hover:text-white transition-colors">
               Политика конфиденциальности
             </a>
